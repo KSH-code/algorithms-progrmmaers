@@ -1,5 +1,8 @@
 # algorithms-progrmmaers
 https://programmers.co.kr/ 문제 풀이
+# 2017-08-29
+* [96](96/)
+* [12](12/)
 # 2017-08-28
 * [127](127/)
 * [122](122/)
