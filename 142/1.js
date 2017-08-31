@@ -6,18 +6,20 @@
  * @desc [행렬의 곱셈]
  */
 function productMatrix(A, B) {
-    var answer = [];
-    for (let i in B[0]) {
-        answer[i] = 0
-        for (let j in A) {
-            answer[i][j] = 0
-        }
-    }
-    for (let i in A[]) {
-        for (let j in A[i]) {
-
-            answer[i][j] +=
-        }
-    }
-    return answer;
+    return A.map(function(row) {
+        return row.map(function(_, i) {
+            return row.reduce(function(sum, cell, j) {
+                return sum + cell * B[j][i];
+            }, 0);
+        });
+    });
 }
+var a = [
+    [5, 6],
+    [7, 8]
+];
+var b = [
+    [1, 2],
+    [3, 4]
+];
+console.log(productMatrix(a, b));
