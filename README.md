@@ -1,7 +1,7 @@
 # algorithms-progrmmaers
 https://programmers.co.kr/ 문제 풀이
 # 2017-09-01
-* [84](84/)
+* [84](84/) 킵
 * [21](21/)
 * [150](150/)
 # 2017-08-31
