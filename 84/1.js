@@ -5,6 +5,7 @@
  * @modify date 2017-09-01 01:59:05
  * @desc [팰린드롬]
  */
+
 function longest_palindrom(s) {
     var result = 1,
         max = 1;
